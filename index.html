@@ -3,14 +3,157 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Socials</title>
+    <title>Ahmed El Memy | Portfolio</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f9f9f9;
+            color: #333;
+            text-align: center;
+            padding: 20px;
+        }
+
+        header {
+            background-color: #9cd0d3;
+            padding: 20px;
+            color: white;
+            font-size: 1.5em;
+        }
+
+        header h1 {
+            margin-bottom: 10px;
+            font-size: 2.5em;
+        }
+
+        header p {
+            font-size: 1.2em;
+            font-style: italic;
+        }
+
+        section {
+            margin-top: 30px;
+        }
+
+        h2 {
+            font-size: 2em;
+            color: #333;
+            margin-bottom: 20px;
+        }
+
+        .about-me p {
+            font-size: 1.2em;
+            line-height: 1.5em;
+            margin-bottom: 30px;
+        }
+
+        .job {
+            background-color: white;
+            padding: 20px;
+            margin: 10px 0;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .job h3 {
+            color: #9cd0d3;
+            font-size: 1.5em;
+            margin-bottom: 10px;
+        }
+
+        .job p {
+            margin-bottom: 15px;
+            line-height: 1.6em;
+        }
+
+        .job a {
+            text-decoration: none;
+            color: white;
+            background-color: #9cd0d3;
+            padding: 10px 20px;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+
+        .job a:hover {
+            background-color: #8cb9bf;
+        }
+
+        .project-list {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+            margin-top: 20px;
+        }
+
+        .project-button {
+            text-decoration: none;
+            background-color: #9cd0d3;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+
+        .project-button:hover {
+            background-color: #8cb9bf;
+        }
+
+        footer {
+            margin-top: 50px;
+            font-size: 1.2em;
+        }
+    </style>
 </head>
 <body>
-    <h1>Follow Me</h1>
-    <ul>
-        <li><a href="https://twitter.com/yourusername" target="_blank">Twitter</a></li>
-        <li><a href="https://instagram.com/yourusername" target="_blank">Instagram</a></li>
-        <li><a href="https://linkedin.com/in/yourusername" target="_blank">LinkedIn</a></li>
-    </ul>
+    <header>
+        <h1>Ahmed El Memy</h1>
+        <p>Friendly | Smart | Passionate | Calm</p>
+    </header>
+
+    <section class="about-me">
+        <h2>About Me</h2>
+        <p>Hi! I'm Ahmed, a passionate and friendly person with experience in customer support, general affairs, and coding. I love learning new things, staying calm in difficult situations, and helping others. I've had the opportunity to work on exciting projects that showcase my skills and dedication.</p>
+    </section>
+
+    <section class="experience">
+        <h2>My Experience</h2>
+
+        <div class="job">
+            <h3>Customer Support / General Affairs at Aklatna El-helwa</h3>
+            <p>Aklatna El-helwa is a cake online food chain that serves Mansoura and El-Mahalla. I manage customer orders, address concerns, and handle general affairs like managing socials and accounting for orders. This job has taught me how to communicate effectively, solve customer issues, and ensure a smooth workflow. I also designed and published their webpage!</p>
+            <a href="https://aklatnaelhelwa.github.io/" target="_blank">Visit Aklatna El-helwa Website</a>
+        </div>
+
+        <div class="job">
+            <h3>Video Editor for Beejie Bean (YouTuber)</h3>
+            <p>I worked as a video editor for Beejie Bean, an Australian YouTuber, where I edited 3D animation videos and combined in-game voice lines. It was a fun and challenging experience that helped me develop skills in video editing and time management. I also created a Discord bot for her server!</p>
+            <a href="https://github.com/AhmedElmemy/Beejie-Bean-Discord-Bot" target="_blank">Check out the Discord Bot</a>
+        </div>
+
+        <div class="job">
+            <h3>Freelance Discord Bot Developer</h3>
+            <p>After working with Beejie, I pursued freelance Discord bot development. My biggest project was contributing to a chain of bots called Dokis, where I handled both coding and dialogue writing. I'm always eager to take on new bot development challenges!</p>
+            <a href="https://github.com/AhmedElmemy/dokis" target="_blank">See the Dokis Project</a>
+        </div>
+    </section>
+
+    <section class="projects">
+        <h2>Projects</h2>
+        <div class="project-list">
+            <a href="https://aklatnaelhelwa.github.io/" target="_blank" class="project-button">Aklatna El-helwa Website</a>
+            <a href="https://github.com/AhmedElmemy/Beejie-Bean-Discord-Bot" target="_blank" class="project-button">Beejie Bean Discord Bot</a>
+            <a href="https://github.com/AhmedElmemy/dokis" target="_blank" class="project-button">Dokis Discord Bot</a>
+        </div>
+    </section>
+
+    <footer>
+        <p>Contact me for any inquiries or collaboration opportunities!</p>
+    </footer>
 </body>
 </html>
